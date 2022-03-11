@@ -1,0 +1,234 @@
+.navbar-web {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #89222e;
+}
+
+.navbar-web .nav-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.navbar-web .nav-item .active {
+  font-weight: bold !important;
+}
+
+.navbar-web .nav-item a {
+  counter-reset: white;
+  margin-right: 20px;
+}
+
+.navbar-web .nav-item .hire {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #89222e !important;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.navbar-web .nav-item .hire:hover {
+  background-color: #89222e;
+  color: white !important;
+}
+
+.jumbotron-web {
+  margin-top: 70px;
+}
+
+.jumbotron-web .kiri {
+  padding-top: 130px;
+  margin-bottom: 30px;
+}
+
+.jumbotron-web .kiri p {
+  font-family: "Raleway", sans-serif;
+}
+
+.jumbotron-web .kiri .nama {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.jumbotron-web .kiri .icon {
+  margin-top: 100px;
+}
+
+.jumbotron-web .kiri .icon i {
+  margin-right: 22px;
+  font-size: 40px;
+  color: #181717;
+}
+
+.jumbotron-web .kanan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumbotron-web .kanan img {
+  width: 80%;
+}
+
+.about-me {
+  margin-top: 160px;
+}
+
+.about-me .konten {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.095em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .about-me .konten {
+    margin-top: 35px;
+    font-size: smaller;
+  }
+}
+
+.work {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  padding-top: 50px;
+}
+
+.work .card-work {
+  height: 400px;
+  margin-top: 55px;
+  padding: 50px 30px 20px;
+  background: #89222e;
+  border-radius: 20px;
+  color: #fdfbe8;
+}
+
+.work img {
+  width: 150px;
+  margin-bottom: 35px;
+}
+
+.work h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.work .desc {
+  font-size: 18px;
+}
+
+.projects {
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+
+.projects .card-work {
+  margin-top: 25px;
+  padding: 50px 20px 30px;
+  background: #89222e;
+  border-radius: 20px;
+  color: #fdfbe8;
+}
+
+.projects img {
+  height: 130px;
+  margin-bottom: 35px;
+}
+
+.projects h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.projects .desc {
+  min-height: 96px;
+  font-size: 16px;
+}
+
+.projects a .btn {
+  color: #89222e;
+}
+
+.projects a .btn:hover {
+  background-color: #89222e;
+  color: #fdfbe8;
+}
+
+.skills {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.skills .konten {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 0.18538em;
+  color: #000000;
+}
+
+.skills .skills-detail {
+  margin-top: 25px;
+}
+
+.skills .skills-detail img {
+  height: 130px;
+  margin-bottom: 40px;
+}
+
+.header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #89222e;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 20px 40px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .header {
+    font-size: 28px;
+  }
+}
+
+footer .foot-icon i,
+footer .copyright {
+  color: white;
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */
